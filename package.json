@@ -1,0 +1,11 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "dev": "hardhat run scripts/run.js --network localhost",
+    "start": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  }
+}
